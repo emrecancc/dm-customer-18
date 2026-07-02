@@ -1,16 +1,18 @@
 {
   "name": "dm-customer-18",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "cp server.js server.js.bak",
-    "start": "npm run build && node server.js.bak"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "husky": "*",
-    "got": "*"
+    "jest": "^26.6.3",
+    "morgan": "*"
   }
 }
