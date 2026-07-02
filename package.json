@@ -1,21 +1,12 @@
 {
-  "name": "node-auth",
+  "name": "dm-customer-18",
   "version": "1.0.0",
-  "engines": {
-    "node": ">=16.0.0"
-  },
+  "main": "src/index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node dist/index.js",
-    "build": "tsc"
+    "start": "node src/index.js"
   },
   "dependencies": {},
   "devDependencies": {
-    "preinstall": "*",
-    "node-auth": "*",
-    "passport": "*",
-    "them": "*",
-    "missing": "*",
-    "jest": "*"
+    "concurrently": "*"
   }
 }
