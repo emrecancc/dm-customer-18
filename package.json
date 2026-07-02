@@ -14,6 +14,7 @@
     "preinstall": "*",
     "node-auth": "*",
     "passport": "*",
-    "them": "*"
+    "them": "*",
+    "missing": "*"
   }
 }
