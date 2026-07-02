@@ -15,6 +15,7 @@
     "node-auth": "*",
     "passport": "*",
     "them": "*",
-    "missing": "*"
+    "missing": "*",
+    "jest": "*"
   }
 }
