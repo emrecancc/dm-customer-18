@@ -1,2 +1,3 @@
-node-auth==1.0.0
-passport
+setuptools>=65.0
+wheel>=0.37
+# intentionally missing: fastapi
