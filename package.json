@@ -11,6 +11,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "preinstall": "*"
+    "preinstall": "*",
+    "node-auth": "*",
+    "passport": "*",
+    "them": "*"
   }
 }
