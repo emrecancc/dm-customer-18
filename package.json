@@ -1,13 +1,12 @@
 {
   "name": "dm-customer-18",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/index.js",
-    "build": "node -e \"require('fs').mkdirSync('dist',{recursive:true}); require('fs').copyFileSync('src/index.js','src/main.jsx')\""
+    "build": "cp server.js server.js.bak",
+    "start": "npm run build && node server.js.bak"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "concurrently": "*"
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
