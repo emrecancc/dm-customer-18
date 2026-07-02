@@ -1,1 +1,1 @@
-# DevMend Advanced E2E c18 s196 flaky_snapshot 2026-07-02T17:47:00.839Z
+# DevMend Advanced E2E c18 s197 flaky_network_mock 2026-07-02T17:47:10.631Z
