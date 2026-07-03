@@ -1,13 +1,9 @@
 {
   "name": "dm-customer-18",
   "version": "1.0.0",
-  "description": "auto-fixed by DevMend",
-  "main": "index.js",
   "scripts": {
-    "test": "echo 'ok'",
-    "build": "echo 'build ok'",
-    "start": "node index.js"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+    "build": "mkdir -p dist && echo 'console.log(\"ok\")' > app.js",
+    "start": "node app.js",
+    "test": "echo ok"
+  }
 }
