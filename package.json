@@ -4,7 +4,8 @@
   "dependencies": {},
   "devDependencies": {
     "typescript": "^5",
-    "@types/node": "^20"
+    "@types/node": "^20",
+    "bull": "*"
   },
   "scripts": {
     "build": "tsc --noEmit || echo ok",
