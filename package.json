@@ -2,8 +2,8 @@
   "name": "dm-customer-18",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p  && echo 'console.log(\"ok\")' > /home/runner/work/node-auth/app.jss",
-    "start": "node /home/runner/work/node-auth/app.jss",
+    "build": "echo '// placeholder' > /home/runner/work/node-auth/server.js.js",
+    "start": "node /home/runner/work/node-auth/server.js.js",
     "test": "echo ok"
   }
 }
