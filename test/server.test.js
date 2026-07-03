@@ -1,17 +1,12 @@
 const request = require('supertest');
-const server = require('../server');
+const app = require('../src/app');
+const server = app.listen(3159);
+// Ensure the server is closed after all tests to prevent port conflicts
+afterAll(() => server.close());
 
 describe('Server', () => {
-  beforeAll(() => {
-    server.listen(3179);
-  });
-
-  afterAll(() => {
-    server.close();
-  });
-
-  test('GET /', async () => {
-    const res = await request(server).get('/');
-    expect(res.status).toBe(200);
+  it('should respond to GET /', async () => {
+    const res = await request(app).get('/');
+    expect(res.statusCode).toBe(200);
   });
 });
