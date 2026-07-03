@@ -1,13 +1,12 @@
 {
-  "name": "dm-customer-18",
+  "name": "node-auth",
   "version": "1.0.0",
-  "description": "auto-fixed by DevMend",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo 'ok'",
-    "build": "echo 'build ok'",
-    "start": "node index.js"
+  "dependencies": {
+    "react": "^18.0.0"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "scripts": {
+    "test": "echo ok",
+    "build": "echo ok",
+    "start": "node index.js"
+  }
 }
