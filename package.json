@@ -1,12 +1,9 @@
 {
-  "name": "node-auth",
+  "name": "dm-customer-18",
   "version": "1.0.0",
-  "dependencies": {
-    "react": "^18.0.0"
-  },
   "scripts": {
-    "test": "echo ok",
-    "build": "echo ok",
-    "start": "node index.js"
+    "build": "mkdir -p  && echo 'console.log(\"ok\")' > /home/runner/work/node-auth/app.jss",
+    "start": "node /home/runner/work/node-auth/app.jss",
+    "test": "echo ok"
   }
 }
