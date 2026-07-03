@@ -1,12 +1,15 @@
 {
-  "name": "dm-customer-18",
+  "name": "node-auth",
   "version": "1.0.0",
-  "main": "server.js",
   "scripts": {
-    "build": "cp server.js server.js.bak",
-    "start": "npm run build && node server.js.bak"
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
   }
 }
